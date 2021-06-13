@@ -19,7 +19,7 @@
 
 ## AD Extension Attributes
 
-[Extension Attributes](/Messaging/Custom%20Attributes/Extension-Attributes)
+[Extension Attributes](/Messaging/Custom-Attributes/Extension-Attributes)
 
 ## Global Support Process
 
@@ -84,16 +84,16 @@
 
 ## Exchange-2016
 
-* [Migrate Wave to Exchange 2016](/Messaging/Exchange%202016/MigrateToExchange2016ByWaves)
+* [Migrate Wave to Exchange 2016](/Messaging/Exchange-2016/Migration/MigrateToExchange2016ByWaves)
 * [Migrate Brand from O365 to OnPrem](/Operations/BackendServices/ListAndSchema)
 
 ## Distribution List
 
-* [Distribution List](/Messaging/Distribution%20List/DistributionList)
+* [Distribution List](/Messaging/Distribution-List/DistributionList)
 
 ## Google User API
 
-* [Enable-Google-API-user-management](/Messaging/Google%20User%20API/Enable-Google-API-user-management)
+* [Enable-Google-API-user-management](/Messaging/Google-User-API/Google-API-User-Management)
 
 ## Messaging Exceptions
 
@@ -108,17 +108,17 @@
 
 ## Messaging Processes
 
-* [Antispam Rules](/Messaging/Messaging%20Processes/Antispam-Rules)
-* [Data Loss Prevention](/Messaging/Messaging%20Processes/Data-Loss-Prevention)
-* [Disaster Recovery Process](/Messaging/Messaging%20Processes/Disaster-Recovery-Process)
-* [Mailbox investigation](/Messaging/Messaging%20Processes/Mailbox-investigation)
-* [Meeting Room booking for non migrated Brands](/Messaging/Messaging%20Processes/Meeting-Room-booking-for-non-migrated-Brands)
-* [Monitoring and alerts management](/Messaging/Messaging%20Processes/Monitoring-and-alerts-management)
-* [Other processes](/Messaging/Messaging%20Processes/Other-processes)
+* [Antispam Rules](/Messaging/Messaging-Processes/Antispam-Rules)
+* [Data Loss Prevention](/Messaging/Messaging-Processes/Data-Loss-Prevention)
+* [Disaster Recovery Process](/Messaging/Messaging-Processes/Disaster-Recovery-Process)
+* [Mailbox investigation](/Messaging/Messaging-Processes/Mailbox-investigation)
+* [Meeting Room booking for non migrated Brands](/Messaging/Messaging-Processes/Meeting-Room-booking-for-non-migrated-Brands)
+* [Monitoring and alerts management](/Messaging/Messaging-Processes/Monitoring-and-alerts-management)
+* [Other processes](/Messaging/Messaging-Processes/Other-processes)
 
 ## Messaging Rights
 
-* [Messaging rights matrix](/Messaging/Messaging%20Rights/Messaging-rights-matrix)
+* [Messaging rights matrix](/Messaging/Messaging-Rights/Messaging-rights-matrix)
 * [Notes](/Messaging/Messaging%20Rights/Notes)
 
 ## Microsoft Support
@@ -133,16 +133,12 @@
 
 * [SOS support](/Messaging/Operations%20process/SOS-support)
 
-* [Calendar DelegationCalendar Delegation](/Messaging/Outlook/Calendar-DelegationCalendar-Delegation)
-* [Inbox rule that apply to meeting related messages from delegation](/Messaging/Outlook/Inbox-rule-that-apply-to-meeting-related-messages-from-delegation)
-* [Room-Finder](/Messaging/Outlook/Room-Finder)
+* [Calendar DelegationCalendar Delegation](/Messaging/Outlook/CalendarDelegation)
+* [Inbox rule that apply to meeting related messages from delegation](/Messaging/Outlook/InboxRuleDelegateMeetings)
+* [Room-Finder](/Messaging/Outlook/RoomFinder)
 * [Zero Config Exchange](/Messaging/Outlook/ZeroConfigExchange)
 
 # Network
-
-## Process
-
-* [Order line internet](Network/Process/InternetLineProcess)
 
 ## 802.1x
 
@@ -155,24 +151,14 @@
 * [Network Modules](Network/Ansible-automation/Network-modules)
 * [Operation Use Cases](Network/Ansible-automation/Operation-use-cases)
 * [Pre defined variables](Network/Ansible-automation/Pre-defined-variables)
-
-## ASA
-
-* [VPN Site to Site with Meraki](Network/ASA/VPN-Site-to-Site-with-Meraki)
+* [Switch auto configuration](Network/Ansible-automation/Switch-auto-configuration)
+* [Switch backup script](Network/Ansible-automation/Switch-backup-script)
 
 ## AWX Ansible
 
 * [Installation Guideline](Network/AWX-Ansible/Installation-guidline)
 * [Operation](Network/AWX-Ansible/Operation)
-
-## Bouygues
-
-* [Bouygues](Network/Bouygues/Bouygues)
-
-## Cleaning
-
-* [Cleaning Office](Network/Cleaning/Cleaning-Office)
-* [Cleaning Switch](Network/Cleaning/Cleaning-Switch)
+* [Architecture Overview](Network/AWX-Ansible/architecture-overview)
 
 ## Clips/WAN
 
@@ -186,12 +172,7 @@
 
 ## Meraki Client VPN
 
-* [Meraki Client VPN](Network/Meraki-Client-VPN/Overview)
-
-## IP PLan
-
-* [Special IP Plan](Network/IP-Plan/Special-IP-Plan)
-* [Standard IP Plan](Network/IP-Plan/Standard-IP-Plan)
+* [Meraki Client VPN Overview](Network/Meraki-Client-VPN/Overview)
 
 ## IPAM
 
@@ -204,12 +185,14 @@
 * [Technical Overview](Network/IPSec-tunnel/Technical-overview)
 * [VPN Concentrator Overview](Network/IPSec-tunnel/VPN-Concentrator)
 * [How To Setup VPN Concentrator](Network/IPSec-tunnel/How-to-setup-Concentrator)
+* [VPN Site to Site with Meraki](Network/IPSec-tunnel/VPN-Site-to-Site-with-Meraki)
 
 ## Layer 2 Effective Boarding
 
 * [Overview](Network/Layer-2-EB/Overview)
 * [Meraki](Network/Layer-2-EB/Meraki)
 * [Switch](Network/Layer-2-EB/Switch)
+* [VPN](Network/Layer-2-EB/VPN)
 
 ## Linux Servers Configurations
 
@@ -228,6 +211,8 @@
 * [Overview](Network/Network-Design/Overview)
 * [Protocol](Network/Network-Design/Protocol)
 * [Subnet Vlan](Network/Network-Design/Subnet-vlan)
+* [Standard IP Plan](Network/Network-Design/Standard-IP-Plan)
+* [Special IP Plan](Network/Network-Design/Special-IP-Plan)
 
 ## THOR Network Program
 
@@ -252,12 +237,14 @@
 
 * [Overview](Network/Network-toolbox/Overview)
 
-## Opening Office
+## Office Maintenance
 
-* [Office Setup](Network/Opening-Office/Office-Setup)
-* [Network devices preference](Network/Opening-Office/Network-Devices-Preference)
-* [Administrative Configuration](Network/Opening-Office/Administrative-configuration)
-* [Velizy OneRoof](Network/Opening-Office/Velizy-OneRoof)
+* [Office Setup](Network/Office-Maintenance/Office-Setup)
+* [Network devices preference](Network/Office-Maintenance/Network-Devices-Preference)
+* [Administrative Configuration](Network/Office-Maintenance/Administrative-configuration)
+* [Velizy OneRoof](Network/Office-Maintenance/Velizy-OneRoof)
+* [Cleaing Office](Network/Office-Maintenance/Cleaning-Office)
+* [Cleaing Switch](Network/Office-Maintenance/Cleaning-Switch)
 
 ## PowerDNS
 
@@ -279,11 +266,6 @@
 * [Radius Server Configuration](Network/RADIUS-Authentication/Radius-Server-Configuration)
 * [Unifi Controller Configuration](Network/RADIUS-Authentication/Unifi-Controller-Configuration)
 
-## Switch Auto Configuration
-
-* [Switch auto configuration](Network/Switch-Auto-Configuration/Switch-auto-configuration)
-* [Switch backup script](Network/Switch-Auto-Configuration/Switch-backup-script)
-
 ## VPN Remote Customer
 
 * [VPN Bouygues](Network/VPN-Remote-Customer/VPN-Bouygues)
@@ -296,16 +278,16 @@
 * [Troubleshoot](Network/Wifi/Troubleshoot)
 * [Wifi Deployment With Unifi](Network/Wifi/Wifi-Deployment-Unifi)
 
-## Wifi Automation 
+## Wifi Automation
 
 * [Wifi Automation Overview](Network/Wifi-Automation/Overview)
 * [UnifiAPIpy Overview](Network/Wifi-Automation/UnifiAPIpy)
-* [Templates Overview](Network/Wifi-Automation/Templates)
+* [Templates Overview](Network/Wifi-Automation/templates)
 * [Databases Overview](Network/Wifi-Automation/Databases)
 
 # Security
 
-## HOW TO
+## HOW-TO
 
 * [ASA](/Security/How-To/how-to-asa)
 * [AZURE](/Security/How-To/how-to-azure)
@@ -336,7 +318,6 @@
 * [AAA](/Security/Firewalls/Prod/AAA)
 * [MANTU Firewall Overview](/Security/Firewalls/Prod/MANTU-Firewall-Overview)
 * [Console-Switch](/Security/Firewalls/Prod/Console-Switch)
-* [Offices ASA VPN](/Security/Firewalls/Prod/Offices-ASA-VPN)
 * [Scripts](/Security/Firewalls/Prod/Scripts)
 * [VPN-User](/Security/Firewalls/Prod/VPN-User)
 * [Client VPN](/Security/Firewalls/Prod/ClientVPN)
@@ -420,9 +401,9 @@
 ### Automation
 
 [Kerberos/Setup](/System/ARP/Kerberos-Setup)
-[Start AppPool](/System/ARP/AppPool-Restart/Start-AppPool)
-[Watch ARPHealth](/System/ARP/Health-Check/Watch-ARPHealth)
-[OutOfMemory Exception](/System/ARP/OutOfMemory-Exception/Get-OOMException)
+[Start AppPool](/System/ARP/Start-AppPool)
+[Watch ARPHealth](/System/ARP/Watch-ARPHealth)
+[OutOfMemory Exception](/System/ARP/Get-OOMException)
 
 ## ATV Service
 
@@ -466,7 +447,7 @@
 
 ### PXE Information
 
-[Bootkey](/System/PXE/PXE-Information/Boot-key)
+[Bootkey](/System/PXE/PXE-information/Boot-key)
 [Add drivers to wim file](/System/PXE/PXE-information/Add-driver-to-wim-file)
 [Image Tracking](/System/PXE/PXE-information/Image-Tracking/Image-Tracking)
 
@@ -511,10 +492,10 @@
 [AzureAD-Connect](/System/Azure/Azure-AD-Connect/Azure-AD-Connect)
 [Azure-DNS](/System/Azure/DNS/Azure-DNS)
 [Network-Security-Groups](/System/Azure/Network-Security-Groups/Network-Security-Groups)
-[Storage-Sync](/System/Azure/Storage-Sync-Services)
+[Storage-Sync](/System/Azure/Storage-Sync-Services/Storage-Sync-Services)
 [VPN](/System/Azure/VPN-and-Express-Route/VPN)
 [ExpressRoute](/System/Azure/VPN-and-Express-Route/ExpressRoute)
-[Azure-CLI-Setup](/System/Azure/Azure-CLI/Azure-CLI-Setup)
+[Azure-CLI-Setup](/System/Azure/Azure-CLI/Azure-CLI-setup)
 [Packer-Setup](/System/Azure/Packer/Packer-setup)
 [Terraform-Setup](/System/Azure/Terraform/Terraform-setup)
 [Azure-DelegationPermission](/System/Azure/Azure-Permission/Client-Provider-Delegation)
@@ -627,7 +608,7 @@
 [Add a SFB new domain to federation with Classis Skype](/Telephony/S4B-General/Add-a-SFB-new-domain-to-federation-with-Classic-Skype)
 [Voice Policy Management](/Telephony/S4B-General/Voice-Policy-Management)
 [QOS Configurations](/Telephony/S4B-General/QOS-configurations)
-[Install S4B for employees (other than Windows OS)](/Telephony/S4BProv/Install-S4B-for-employees-Other-than-Windows-OS)
+[Install S4B for employees (other than Windows OS)](/Telephony/S4B-General/Install-S4B-for-employees-Other-than-Windows-OS)
 
 ## S4BProv
 
@@ -748,39 +729,39 @@
 
 ### Bitwarden
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Bitwarden/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Bitwarden/General-information)
 
 ### Atlantis
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Atlantis/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Atlantis/General-information)
 [Gitlab-interactions](/InfrastructureAndCloud/Support-Infrastructure/Atlantis/Gitlab-interactions)
 [Atlantis-instances](/InfrastructureAndCloud/Support-Infrastructure/Atlantis/Atlantis-instances)
 
 ### Monitoring
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Atlantis/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Monitoring/General-information)
 [Gitlab-interactions](/InfrastructureAndCloud/Support-Infrastructure/Monitoring/Prometheus-exporters)
 [Atlantis-instances](/InfrastructureAndCloud/Support-Infrastructure/Monitoring/Monitoring-instances)
 
 ### Secret
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Secret/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Secret/General-information)
 
 ### HAproxy
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Haproxy/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Haproxy/General-information)
 
 ### DLM-Backup
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/DLM-Backup/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/DLM-Backup/General-information)
 
 ### Terraform CI CD
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/Terraform-cicd/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/Terraform-cicd/General-information)
 
 ### IAC setup script
 
-[General Information](/InfrastructureAndCloud/Support-Infrastructure/iac-setup-script/General-Information)
+[General Information](/InfrastructureAndCloud/Support-Infrastructure/iac-setup-script/General-information)
 ### Molecule
 
 [General Information](/InfrastructureAndCloud/Support-Infrastructure/Molecule/General-Information)
